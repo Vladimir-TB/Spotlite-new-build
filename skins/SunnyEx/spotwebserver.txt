@@ -1,0 +1,29 @@
+
+var nzbserver01 = 'https://www.clubnzb.com'
+var nzbserver02 = 'https://www.nzbstars.com'
+var nzbserver03 = 'https://www.nzbserver.com' 	// <- For Spot Information Only (FSIO)
+
+
+// **Online Spotweb sites** (spare) //
+// https://www.clubnzb.com
+// https://www.nzbstars.com
+// http://www.spotnzb.com 	// <- For Download NZB Only (FDNO)
+
+
+// ====== NZB Search Buttons ====== //
+var searchSites = [
+    {
+        url: 'https://www.binsearch.info/?q=',
+        name: 'Binsearch'
+    },
+    {
+        url: 'https://www.nzbking.com/?q=',
+        name: 'NZBKing'
+    },
+    {
+        url: 'https://nzbindex.com/search?q=',
+        name: 'NZBIndex'
+    }
+];
+
+

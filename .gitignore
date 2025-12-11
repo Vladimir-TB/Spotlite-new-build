@@ -1,0 +1,12 @@
+# Build outputs
+release/
+dist/
+
+# Qt Creator / qmake user-specific files
+*.pro.user*
+*.qmake.stash
+mocinclude.opt
+object_script.*
+
+# Logs
+*.log

@@ -1,0 +1,224 @@
+/*main*/
+QMainWindow { 
+	background: #f3f3f3;
+}
+
+/*menu*/
+QMenuBar {
+	background: #e3e3e3;
+	border-bottom: 1px solid #999;
+}	
+QMenuBar::item {
+	color: #000;
+	padding: 2px 7px;
+	background: transparent;
+	border-radius: 3px;
+}
+QMenuBar::item:selected {
+	background: #1a5698;
+	color: #fff;
+}
+QMenuBar::item:pressed {
+	background: #1a5698;
+}
+QMenu {
+	background: #f3f3f3;
+	border: 1px solid #999;
+}
+QMenu::item:selected {
+	background: #1a5698;
+	color: #fff;
+}
+
+/*tabbladen*/
+QTabWidget::pane {
+	background: #f3f3f3;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid #999;
+}
+QTabWidget::tab-bar {
+	left: 0px;
+}
+QTabBar::tab {
+	background: #e3e3e3;
+	color: #000;
+	border: 1px solid #999;
+	border-bottom: none;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	min-width: 8ex;
+	padding: 3px 10px;
+}
+QTabBar::tab:hover {
+	background: #1a5698;
+	color: #fff;
+	border-color: #1a5698;
+}
+QTabBar::tab:selected {
+	background: #fff;
+	color: #000;
+}
+QTabBar::tab:!selected {
+	margin-top: 2px;
+}
+QTabBar::scroller {
+	width: 30px;
+}
+QTabBar QToolButton {
+	margin-left: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+/*categorielijst*/
+QHeaderView::section {
+	background: #f3f3f3;
+	color: #f3f3f3;
+	border: none;
+}
+QTreeView {
+	show-decoration-selected: 0;
+	background: #f3f3f3;
+	color: #000;
+}
+QTreeView::item {
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid #f3f3f3;
+	border-bottom: none;
+}
+QTreeView::item:selected {
+	background: #d4dbe0;
+	color: #000;
+}
+QTreeView::item:hover {
+	background: #d4dbe0;
+	color: #000;
+}
+QTreeView::item:selected:active {
+	background: #d4dbe0;
+	color: #000;
+}
+QTreeView::item:selected:!active {
+	background: #d4dbe0;
+	color: #000;
+}
+
+/*scheiding categorielijst en overzicht*/
+QSplitter::handle {
+	background: #f3f3f3;
+	border-left: 12px solid #f3f3f3;
+	border-right: 1px solid #999;
+}
+
+/*overzicht*/
+QTableView ::section, QTableView ::section:selected {
+	background: #f3f3f3;
+	color: #000;
+	selection-color: #000;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 24px;
+	font-size: 15px;
+	border-top: 1px solid #999;
+	border-left: none;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;	
+}
+QTableView {
+	selection-background-color: #1a5698;
+	alternate-background-color: #e4ebf0;
+	background: #fff;
+	selection-color: #fff;
+	color: #000;
+}
+
+/*frame*/
+QFrame {
+	border: none;
+}
+
+/*buttons*/
+QPushButton {
+	background: #e3e3e3;
+	color: #000;
+	border: 1px solid #999;
+	border-radius: 3px;
+	min-width: 80px;
+	min-height: 18px;
+	padding: 4px 15px;
+	margin-left: 5px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+#updateButton {
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+#zoekButton {
+	margin-left: 0;
+	margin-top: 5px;
+	margin-bottom: 0;
+	min-width: 50px;
+}
+QPushButton:hover {
+	background: #1a5698;
+	color: #fff;
+	border-color: #1a5698;
+}
+QPushButton:pressed {
+	background: #1a5698;
+	color: #fff;
+	border-color: #1a5698;
+}
+
+/*zoekvak*/
+#queryEdit {
+	background: #fff;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 2px 5px;
+	selection-background-color: #1a5698;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#onlycat_checkbox {
+	margin-left: 5px;
+}
+
+/*toolbar watchlist, reactie en verwijderen*/
+QToolBar {
+	background: #f3f3f3;
+	color: #000;
+	border: none;
+	padding: 10px;
+	border-top: 1px solid #999;
+}
+QToolButton {
+	background: #e3e3e3;
+	color: #000;
+	border: 1px solid #999;
+	border-radius: 3px;
+	min-width: 8ex;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 15px;
+ }
+QToolButton:hover {
+	background: #1a5698;
+	color: #fff;
+	border-color: #1a5698;
+}
+QToolButton:pressed {
+	background: #1a5698;
+	color: #fff;
+	border-color: #1a5698;
+}
+QToolButton:Checked {
+	background: #1a5698;
+	color: #fff;
+	border-color: #1a5698;
+}
